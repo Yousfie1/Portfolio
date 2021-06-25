@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Yousef</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <button class="darkmodeButton" onclick="darkmodeFunction()">
+      <i class="fa fa-moon-o" aria-hidden="true"></i>
+    </button>
+    <div class="text">
+      <p class="intro">
+        Hey, I'm Yousef Ahmed and I want to be <br />
+        a creative software developer.
+      </p>
+    </div>
+    <div>
+      <ul class="lijstje">
+        <li><a href="#overmijtekst">About me</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div id="overmijtekst">
+      <hr />
+      <h1 class="font-weight-light">Over mij!</h1>
+      <p class="lead">
+        Mijn naam is Yousef, een 18 jarige jongen.<br />
+        Ik ben momenteel student bij de Roc Mondriaan Tinwerf.<br />
+        De opleiding die ik volg, en hartstikke enthousiast over ben is software
+        development<br />
+        Mijn reden waarom ik deze opleiding gekozen heb is omdat al heel lang
+        wou coderen<br />
+        maar het was lastig om zonder hulp van een docent te begrijpen.<br />
+        Maar nu alle uitleg in het nederlands is en voldoende hulp aangeboden
+        word is het te doen.<br />
+        Na deze opleiding hoop ik een bedrijf op te starten terwijl ik mijn HBO
+        afrond.<br />
+      </p>
+      <img id="fotoVanMij" src="./img/Fotovanmij.png" alt="foto" />
+    </div>
+
+    <div id="project">
+      <hr />
+      <h1 class="font-weight-light">Projecten</h1>
+      <p class="lead">First project C# cardgame</p>
+      <img class="CSplaatje" src="./img/Css.png" alt="plaatje" />
+      <div class="projectRekenmachine">
+        <h1 class="font-weight-light">Calculator</h1>
+        <p>Second project the calculator</p>
+        <p class="rekenmachineIcon">
+          <i class="fa fa-calculator" aria-hidden="true"></i>
+        </p>
+        <a href=""></a>
+        <button
+          class="rekenmachine-button"
+          value="Click Here"
+          onClick="rekenmachine()"
+        >
+          Press here <br />
+          to use calculator
+        </button>
+      </div>
+      <div class="tictactoe">
+      <h1 class="font-weight-light">Tic Tac Toe</h1>
+      <p>
+        Final project <br />
+        Tic Tac Toe
+      </p>
+      </div>
+      <section class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+      </section>
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+      <section class="display announcer hide"></section>
+      <section class="controls">
+        <button id="reset">Reset</button>
+      </section>
+    </div>
+    <div id="contact">
+      <hr>
+      <p>Contact</p>
+      <ul>
+        <li><i class="fa fa-phone" aria-hidden="true"></i>+31 611143065</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i>Yousfie2003@gmail.com</li>
+      </ul>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/59994945b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
